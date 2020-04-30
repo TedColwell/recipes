@@ -1,2 +1,2 @@
 # recipies
-Recipe Project  ( AI Club )
+Recipe Project  ( MSOE AI Club )
