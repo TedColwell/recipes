@@ -23,8 +23,8 @@ import numpy as np
 
 """Before running the code below dowload the sonar dataset from https://archive.ics.uci.edu/ml/machine-learning-databases/undocumented/connectionist-bench/sonar/sonar.all-data and rename it sonar.csv then upload it from the next block"""
 
-from google.colab import files
-uploaded = files.upload()
+#from google.colab import files
+#uploaded = files.upload()
 
 # load dataset
 dataframe = read_csv("RecipiesCleanNoIndexHalfRealHalfRandomRandomStartsLine4780LabelsInColCUZ1.csv", header=None)
