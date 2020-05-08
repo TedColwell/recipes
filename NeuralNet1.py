@@ -43,10 +43,13 @@ results = model.fit(X, Y, batch_size=5, epochs=2)
 
 
 # Creates Good recipes
+
+# parameters
 numberOfRecipes = 5
 AproxNumberOfIngredients = 12
-scoreLimit = .9 #between 0 and 1
-j=0
+scoreLimit = .9 # between 0 and 1
+
+j = 0
 while j < numberOfRecipes:
     score = 0
     recipe = np.zeros(2599)
